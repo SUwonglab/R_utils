@@ -66,10 +66,3 @@ plot.tsne <- function(tsne.coord,
     }
 }
 
-
-
-
-
-
-
-
