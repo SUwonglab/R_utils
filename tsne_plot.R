@@ -31,6 +31,8 @@ plot.util <- function(tsne.coord,
 #' @param title - title of the plot ('main' in plot).
 #' @param add.labels - whether or not to add text labels to each cluster.
 #' @param cluster.labels - the corresponding labels of each cluster if add.labels is specified to be 'T'.
+#' @param save.plot - whether or not to save the plot.
+#' @param save.dir - filename of the resulting plot (e.g. './plots/sc_rna_seq_1.png')
 #' plot.tsne()
 plot.tsne <- function(tsne.coord,
                       color.assignment,
